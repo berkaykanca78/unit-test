@@ -49,7 +49,8 @@
 ## Teknikler:
 ---
 ## Konsept:
-### Mocking: Sahte nesnelerle test yapılmasını sağlar. Moq ve NSubtitute Nuget paketleri ile bu işlem gerçekleştirilir. NSubtitute yazım olarak Moq kütüphanesinden daha basittir, tercih edilebilir.
+### Mocking: Sahte nesnelerle test yapılmasını sağlar. Moq ve NSubtitute Nuget paketleri ile bu işlem gerçekleştirilir. 
+- NSubtitute yazım olarak Moq kütüphanesinden daha basittir, tercih edilebilir.
 ---
 ## Gerçek Dünya:
 ---
