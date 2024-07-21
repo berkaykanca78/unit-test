@@ -1,5 +1,5 @@
 # Unit Test
-<img src="[https://sis.binus.ac.id/wp-content/uploads/2021/11/1-10.png](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKIAkExHGoSEQ3SdZHGWB108QX38EKzPVpxQ&s)"/>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKIAkExHGoSEQ3SdZHGWB108QX38EKzPVpxQ&s"/>
 
 ---
 ## Giriş:
