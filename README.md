@@ -2,7 +2,7 @@
 ---
 ## Giriş:
 ### Test Çeşitleri
-Fonskiyonel Testler:
+#### Fonskiyonel Testler:
 - Unit testing
 - Integration testing
 - End-to-end testing
@@ -13,7 +13,7 @@ Fonskiyonel Testler:
 - White-box testing
 - Black box testing
 - Interface testing
-Fonksiyonel Olmayan Testler:
+#### Fonksiyonel Olmayan Testler:
 - Performance testing
 - Security testing
 - Load testing
