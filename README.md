@@ -7,9 +7,13 @@
 - MSTest: Microsoft tarafından geliştirilir.
 ---
 ## Fundamentals
-### Arrange, Act, Assert: (Unit testi parçalar halinde daha okunaklı hale getirme) İlgili alanlarda yapılıp kodun okunabilirliği ve yönetilebilirliği için avantaj sağlar.
-- Arrange: Class veya service newlenip instance düzeltilip değer set edildiği kısım. Bazen bu kısım olmayabilir ctor ile tüm metodlarda kullanım olabilir. (Class-service oluşturma)
-- Act: Metodların çağrıldığı,çalıştırldığı,sonuçların yakalandığı kısımdır. Bazen act ile assert iç içe olabilir. (Metod tetikleme)
+### İsimlendirme Kuralları: 
+- Proje ismimizin sonunda Unit olduğunu belirtmemiz gerekir. Örneğin: ****.Test.Unit gibi.
+- Class ismimiz ana projeyi içerecek şekilde yazılmalı. Örneğin: *****.Tests.cs gibi.
+- Metod ismi içerisinde yaptığımız işlem belirtilmeli. ***_Should***_When*** gibi should ve wheni şu durumda şu yapılıyor şeklinde belirtmekte kullanmalıyız.
+### Arrange, Act, Assert: İlgili alanlarda yapılıp kodun okunabilirliği ve yönetilebilirliği için avantaj sağlar.
+- Arrange: Class veya service newlenip instance düzeltilip değer set edildiği kısım. (Class-service oluşturma)
+- Act: Metodların çağrıldığı,çalıştırldığı,sonuçların yakalandığı kısımdır. (Metod tetikleme)
 - Asset: Sonuç kontrol edildiği ne olması gerektiğini uygualamya söylediğimiz kısımdır. (Sonuç kontrol)
 ---
 ## Techniques
