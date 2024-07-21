@@ -1,12 +1,12 @@
 # Unit Test
 ---
-## Introduction
+## Giriş:
 ### Three Unit Test Concepts: NUnit - XUnit - MSTest
 - NUnit: Eski .NET sürümlerini barındırır. Eskiden kullanımı daha yaygındı yerini XUnit ve MSTest'e bırakmıştır.
 - XUnit: Güncel olarak en fazla kullanılan türdür. Topluluk tarafından geliştirilir daha yenilikçi ve kullanım açısından daha iyidir.
 - MSTest: Microsoft tarafından geliştirilir.
 ---
-## Fundamentals
+## Tanımlar:
 ### İsimlendirme Kuralları: 
 - Proje ismimizin sonunda Unit olduğunu belirtmemiz gerekir. Örneğin: ****.Test.Unit gibi.
 - Class ismimiz ana projeyi içerecek şekilde yazılmalı. Örneğin: *****.Tests.cs gibi.
@@ -16,11 +16,11 @@
 - Act: Metodların çağrıldığı,çalıştırldığı,sonuçların yakalandığı kısımdır. (Metod tetikleme)
 - Asset: Sonuç kontrol edildiği ne olması gerektiğini uygualamya söylediğimiz kısımdır. (Sonuç kontrol)
 ---
-## Techniques
+## Teknikler:
 ---
-## Concepts
+## Konsept:
 ---
-## Real Worlds
+## Gerçek Dünya:
 ---
 #### Kaynakça
 - Taner Saydam - Udemy - YouTube
