@@ -2,6 +2,9 @@
 ---
 ## Introduction
 ### Three Unit Test Concepts: NUnit - XUnit - MSTest
+- NUnit: Eski .NET sürümlerini barındırır. Eskiden kullanımı daha yaygındı yerini XUnit ve MSTest'e bırakmıştır.
+- XUnit: Güncel olarak en fazla kullanılan türdür. Topluluk tarafından geliştirilir daha yenilikçi ve kullanım açısından daha iyidir.
+- MSTest: Microsoft tarafından geliştirilir.
 ---
 ## Fundamentals
 ### Arrange, Act, Assert: (Unit testi parçalar halinde daha okunaklı hale getirme) İlgili alanlarda yapılıp kodun okunabilirliği ve yönetilebilirliği için avantaj sağlar.
