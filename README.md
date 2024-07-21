@@ -1,5 +1,5 @@
 # Unit Test
-<img width="350px;" src="https://files.realpython.com/media/Python-unittest_Watermarked.f6549bba7422.jpg"/>
+<img width="500px;" src="https://files.realpython.com/media/Python-unittest_Watermarked.f6549bba7422.jpg"/>
 
 ---
 ## Giriş:
