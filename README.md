@@ -1,6 +1,36 @@
 # Unit Test
 ---
 ## Giriş:
+### Test Çeşitleri
+-- Fonskiyonel Testler:
+- Unit testing
+- Integration testing
+- End-to-end testing
+- Smoke testing
+- Sanity testing
+- Regression testing
+- Acceptance testing
+- White-box testing
+- Black box testing
+- Interface testing
+-- Fonksiyonel Olmayan Testler:
+- Performance testing
+- Security testing
+- Load testing
+- Failover testing
+- Compatibility testing
+- Usability testing
+- Scalability testing
+- Volume testing
+- Stress testing
+- Maintainability testing
+- Compliance testing
+- Efficiency testing
+- Reliability testing
+- Endurance testing
+- Disaster recovery testing
+- Localization testing
+- Internationalization testing
 ### 3 Unit Test Concepts: NUnit - XUnit - MSTest
 - NUnit: Eski .NET sürümlerini barındırır. Eskiden kullanımı daha yaygındı yerini XUnit ve MSTest'e bırakmıştır.
 - XUnit: Güncel olarak en fazla kullanılan türdür. Topluluk tarafından geliştirilir daha yenilikçi ve kullanım açısından daha iyidir.
@@ -24,3 +54,4 @@
 ---
 #### Kaynakça
 - Taner Saydam - Udemy - YouTube
+- Nursema Gülmez - Medium
