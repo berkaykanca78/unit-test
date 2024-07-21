@@ -49,6 +49,7 @@
 ## Teknikler:
 ---
 ## Konsept:
+### Mocking: Sahte nesnelerle test yapılmasını sağlar. Moq ve NSubtitute Nuget paketleri ile bu işlem gerçekleştirilir.
 ---
 ## Gerçek Dünya:
 ---
