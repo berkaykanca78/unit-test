@@ -49,6 +49,8 @@
 - Assert: Sonuç kontrol edildiği ne olması gerektiğini uygualamya söylediğimiz kısımdır. (Sonuç kontrol)
 ---
 ## Teknikler:
+### Fluent Assertion: xUnit'deki Assert ve Should yerine kullanılan bir Nuget Kütüphanesidir, Assert işlemleri için tercih edilmesi tavsiye edilir. Daha okunaklı ve daha özellikli bir kütüphanedir. FluentAssertions olarak geçmektedir.
+İngilizcedeki yazım gibidir, sadedir.
 ---
 ## Konsept:
 ### Mocking: Sahte nesnelerle test yapılmasını sağlar. Moq ve NSubtitute Nuget paketleri ile bu işlem gerçekleştirilir. 
