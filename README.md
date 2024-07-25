@@ -47,6 +47,8 @@
 - Arrange: Class veya service newlenip instance düzeltilip değer set edildiği kısım. (Class-service oluşturma)
 - Act: Metodların çağrıldığı,çalıştırldığı,sonuçların yakalandığı kısımdır. (Metod tetikleme)
 - Assert: Sonuç kontrol edildiği ne olması gerektiğini uygualamya söylediğimiz kısımdır. (Sonuç kontrol)
+### Ignore Test (Skip): Fact veya Theory kullanırken içerisine parametre olarak Skip('Neden') içerisine nedeninizi belirttiğiniz unit testlerinizin başında ünlem işareti çıkar ve bu testi atlayacağını farketmiş oluruz.
+### Parameterizing Testing: Theory kullanırız, altına InlineData içerisinde parametrelerimizi aldırıp kullanabiliriz. Kod kopyalamak yerine bu yöntem ile birçok veri ile testimizi sağlayabiliriz.
 ---
 ## Teknikler:
 ### Fluent Assertion: xUnit'deki Assert kısmına Should Be gibi daha anlaşılır ifadeler kullanılan bir Nuget Kütüphanesidir.
