@@ -79,7 +79,7 @@
 
 `Theory` kullanarak, altına `InlineData` içerisinde parametrelerinizi ekleyebilir ve testlerinizi birden fazla veri ile sağlayabilirsiniz. Kod kopyalamak yerine bu yöntemle birçok veri ile test edebilirsiniz.
 
-### xUnit Test Execution Modei
+### xUnit Test Execution Mode
 
 Farklı instanceler türetilmesi için kullanılır. ! Konu Daha Sonra Detaylandırılacaktır.
 
@@ -125,7 +125,11 @@ Farklı instanceler türetilmesi için kullanılır. ! Konu Daha Sonra Detayland
 
 ## Kaynakça
 
-| Yazar           | Kaynak         |
-|-----------------|----------------|
-| Taner Saydam    | Udemy - YouTube|
-| Nursema Gülmez  | Medium         |
+| Yazar           | Kaynak               |
+|-----------------|----------------------|
+| Taner Saydam    | [Udemy](https://www.udemy.com/) - [YouTube](https://www.youtube.com/) |
+| Nursema Gülmez  | [Medium](https://medium.com/@nursema.gulmez) |
+| Ahmet Babalı    | [Medium](https://medium.com/@ahmetbabali) |
+| Fatih İzgi      | [Medium](https://medium.com/@fatihizgi) |
+| Ali Furkan Gökçe| [Medium](https://medium.com/@alifurkangokce) |
+| Evren Bal       | [Medium](https://medium.com/@evrenbal) |
