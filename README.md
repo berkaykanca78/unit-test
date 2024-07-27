@@ -13,8 +13,8 @@
 <table>
   <thead>
     <tr>
-      <th>#</th>
-      <th>Test Türü</th>
+      <th style="text-align:left;">#</th>
+      <th style="text-align:left;">Test Türü</th>
     </tr>
   </thead>
   <tbody>
@@ -66,8 +66,8 @@
 <table>
   <thead>
     <tr>
-      <th>#</th>
-      <th>Test Türü</th>
+      <th style="text-align:left;">#</th>
+      <th style="text-align:left;">Test Türü</th>
     </tr>
   </thead>
   <tbody>
@@ -157,8 +157,8 @@
 <table>
   <thead>
     <tr>
-      <th>Kural</th>
-      <th>Açıklama</th>
+      <th style="text-align:left;">Kural</th>
+      <th style="text-align:left;">Açıklama</th>
     </tr>
   </thead>
   <tbody>
@@ -182,8 +182,8 @@
 <table>
   <thead>
     <tr>
-      <th>Adım</th>
-      <th>Açıklama</th>
+      <th style="text-align:left;">Adım</th>
+      <th style="text-align:left;">Açıklama</th>
     </tr>
   </thead>
   <tbody>
@@ -219,8 +219,8 @@
 <table>
   <thead>
     <tr>
-      <th>Kavram</th>
-      <th>Açıklama</th>
+      <th style="text-align:left;">Kavram</th>
+      <th style="text-align:left;">Açıklama</th>
     </tr>
   </thead>
   <tbody>
@@ -236,8 +236,8 @@
 <table>
   <thead>
     <tr>
-      <th>#</th>
-      <th>Test Türü</th>
+      <th style="text-align:left;">#</th>
+      <th style="text-align:left;">Test Türü</th>
     </tr>
   </thead>
   <tbody>
@@ -289,8 +289,8 @@
 <table>
   <thead>
     <tr>
-      <th>Kavram</th>
-      <th>Açıklama</th>
+      <th style="text-align:left;">Kavram</th>
+      <th style="text-align:left;">Açıklama</th>
     </tr>
   </thead>
   <tbody>
@@ -312,8 +312,8 @@
 <table>
   <thead>
     <tr>
-      <th>Yazar</th>
-      <th>Kaynak</th>
+      <th style="text-align:left;">Yazar</th>
+      <th style="text-align:left;">Kaynak</th>
     </tr>
   </thead>
   <tbody>
