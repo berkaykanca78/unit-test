@@ -55,6 +55,16 @@
 - Assert işlemleri için tercih edilmesi tavsiye edilir.
 - Daha okunaklı ve daha özellikli bir kütüphanedir. İngilizcedeki yazım gibidir, sadedir.
 - FluentAssertions olarak geçmektedir.
+### Tiplere Göre Testler:
+- String Test
+- Number Test
+- Date Test
+- Object Test
+- Enumerables Test
+- Throw Exception Test
+- Raised Events Test
+- Private Method Test
+- Internal Method Test
 ---
 ## Konsept:
 ### Mocking: Sahte nesnelerle test yapılmasını sağlar. Moq ve NSubtitute Nuget paketleri ile bu işlem gerçekleştirilir. 
