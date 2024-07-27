@@ -10,137 +10,40 @@
 
 #### Fonksiyonel Testler
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left;">#</th>
-      <th style="text-align:left;">Test Türü</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>1</td>
-      <td>Unit Testing</td>
-    </tr>
-    <tr>
-      <td>2</td>
-      <td>Integration Testing</td>
-    </tr>
-    <tr>
-      <td>3</td>
-      <td>End-to-End Testing</td>
-    </tr>
-    <tr>
-      <td>4</td>
-      <td>Smoke Testing</td>
-    </tr>
-    <tr>
-      <td>5</td>
-      <td>Sanity Testing</td>
-    </tr>
-    <tr>
-      <td>6</td>
-      <td>Regression Testing</td>
-    </tr>
-    <tr>
-      <td>7</td>
-      <td>Acceptance Testing</td>
-    </tr>
-    <tr>
-      <td>8</td>
-      <td>White-box Testing</td>
-    </tr>
-    <tr>
-      <td>9</td>
-      <td>Black Box Testing</td>
-    </tr>
-    <tr>
-      <td>10</td>
-      <td>Interface Testing</td>
-    </tr>
-  </tbody>
-</table>
+| #  | Test Türü                  |
+|----|----------------------------|
+| 1  | Unit Testing               |
+| 2  | Integration Testing         |
+| 3  | End-to-End Testing          |
+| 4  | Smoke Testing              |
+| 5  | Sanity Testing             |
+| 6  | Regression Testing         |
+| 7  | Acceptance Testing         |
+| 8  | White-box Testing          |
+| 9  | Black Box Testing          |
+| 10 | Interface Testing          |
 
 #### Fonksiyonel Olmayan Testler
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left;">#</th>
-      <th style="text-align:left;">Test Türü</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>1</td>
-      <td>Performance Testing</td>
-    </tr>
-    <tr>
-      <td>2</td>
-      <td>Security Testing</td>
-    </tr>
-    <tr>
-      <td>3</td>
-      <td>Load Testing</td>
-    </tr>
-    <tr>
-      <td>4</td>
-      <td>Failover Testing</td>
-    </tr>
-    <tr>
-      <td>5</td>
-      <td>Compatibility Testing</td>
-    </tr>
-    <tr>
-      <td>6</td>
-      <td>Usability Testing</td>
-    </tr>
-    <tr>
-      <td>7</td>
-      <td>Scalability Testing</td>
-    </tr>
-    <tr>
-      <td>8</td>
-      <td>Volume Testing</td>
-    </tr>
-    <tr>
-      <td>9</td>
-      <td>Stress Testing</td>
-    </tr>
-    <tr>
-      <td>10</td>
-      <td>Maintainability Testing</td>
-    </tr>
-    <tr>
-      <td>11</td>
-      <td>Compliance Testing</td>
-    </tr>
-    <tr>
-      <td>12</td>
-      <td>Efficiency Testing</td>
-    </tr>
-    <tr>
-      <td>13</td>
-      <td>Reliability Testing</td>
-    </tr>
-    <tr>
-      <td>14</td>
-      <td>Endurance Testing</td>
-    </tr>
-    <tr>
-      <td>15</td>
-      <td>Disaster Recovery Testing</td>
-    </tr>
-    <tr>
-      <td>16</td>
-      <td>Localization Testing</td>
-    </tr>
-    <tr>
-      <td>17</td>
-      <td>Internationalization Testing</td>
-    </tr>
-  </tbody>
-</table>
+| #  | Test Türü                      |
+|----|--------------------------------|
+| 1  | Performance Testing            |
+| 2  | Security Testing               |
+| 3  | Load Testing                   |
+| 4  | Failover Testing               |
+| 5  | Compatibility Testing          |
+| 6  | Usability Testing              |
+| 7  | Scalability Testing            |
+| 8  | Volume Testing                 |
+| 9  | Stress Testing                 |
+| 10 | Maintainability Testing        |
+| 11 | Compliance Testing             |
+| 12 | Efficiency Testing             |
+| 13 | Reliability Testing            |
+| 14 | Endurance Testing              |
+| 15 | Disaster Recovery Testing      |
+| 16 | Localization Testing           |
+| 17 | Internationalization Testing   |
 
 ### 3 Unit Test Concepts
 
@@ -154,53 +57,19 @@
 
 ### İsimlendirme Kuralları
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left;">Kural</th>
-      <th style="text-align:left;">Açıklama</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Proje İsmi</td>
-      <td>Proje ismimizin sonunda "Unit" kelimesini belirtmemiz gerekir. Örneğin: `*****.Test.Unit` gibi.</td>
-    </tr>
-    <tr>
-      <td>Class İsmi</td>
-      <td>Class ismimiz ana projeyi içerecek şekilde yazılmalıdır. Örneğin: `*****.Tests.cs` gibi.</td>
-    </tr>
-    <tr>
-      <td>Metod İsmi</td>
-      <td>Metod ismi içerisinde yaptığımız işlem belirtilmelidir. `***_Should_***_When_***` gibi should ve when ifadeleri kullanılarak "şu durumda şu yapılıyor" şeklinde belirtilebilir.</td>
-    </tr>
-  </tbody>
-</table>
+| Kural           | Açıklama                                                                                     |
+|-----------------|----------------------------------------------------------------------------------------------|
+| Proje İsmi       | Proje ismimizin sonunda "Unit" kelimesini belirtmemiz gerekir. Örneğin: `*****.Test.Unit` gibi. |
+| Class İsmi       | Class ismimiz ana projeyi içerecek şekilde yazılmalıdır. Örneğin: `*****.Tests.cs` gibi.       |
+| Metod İsmi       | Metod ismi içerisinde yaptığımız işlem belirtilmelidir. `***_Should_***_When_***` gibi should ve when ifadeleri kullanılarak "şu durumda şu yapılıyor" şeklinde belirtilebilir. |
 
 ### Arrange, Act, Assert
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left;">Adım</th>
-      <th style="text-align:left;">Açıklama</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Arrange</td>
-      <td>Class veya service newlenip instance oluşturulur ve değer set edilir. (Class-service oluşturma)</td>
-    </tr>
-    <tr>
-      <td>Act</td>
-      <td>Metodların çağrıldığı, çalıştırıldığı ve sonuçların yakalandığı kısımdır. (Metod tetikleme)</td>
-    </tr>
-    <tr>
-      <td>Assert</td>
-      <td>Sonuç kontrol edilir, ne olması gerektiği uygulanmaya söylenir. (Sonuç kontrol)</td>
-    </tr>
-  </tbody>
-</table>
+| Adım    | Açıklama                                                                                           |
+|---------|----------------------------------------------------------------------------------------------------|
+| Arrange | Class veya service newlenip instance oluşturulur ve değer set edilir. (Class-service oluşturma)   |
+| Act     | Metodların çağrıldığı, çalıştırıldığı ve sonuçların yakalandığı kısımdır. (Metod tetikleme)      |
+| Assert  | Sonuç kontrol edilir, ne olması gerektiği uygulanmaya söylenir. (Sonuç kontrol)                   |
 
 ### Ignore Test (Skip)
 
@@ -216,69 +85,23 @@
 
 ### Fluent Assertion
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left;">Kavram</th>
-      <th style="text-align:left;">Açıklama</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Fluent Assertions</td>
-      <td>xUnit'deki Assert kısmına "Should Be" gibi daha anlaşılır ifadeler ekleyen bir Nuget kütüphanesidir. Assert işlemleri için tercih edilmesi tavsiye edilir. Daha okunaklı ve özellikli bir kütüphanedir. İngilizce yazım gibidir ve sadedir.</td>
-    </tr>
-  </tbody>
-</table>
+| Kavram            | Açıklama                                                                                 |
+|-------------------|------------------------------------------------------------------------------------------|
+| Fluent Assertions | xUnit'deki Assert kısmına "Should Be" gibi daha anlaşılır ifadeler ekleyen bir Nuget kütüphanesidir. Assert işlemleri için tercih edilmesi tavsiye edilir. Daha okunaklı ve özellikli bir kütüphanedir. İngilizce yazım gibidir ve sadedir. |
 
 ### Tiplere Göre Testler
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left;">#</th>
-      <th style="text-align:left;">Test Türü</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>1</td>
-      <td>String Test</td>
-    </tr>
-    <tr>
-      <td>2</td>
-      <td>Number Test</td>
-    </tr>
-    <tr>
-      <td>3</td>
-      <td>Date Test</td>
-    </tr>
-    <tr>
-      <td>4</td>
-      <td>Object Test</td>
-    </tr>
-    <tr>
-      <td>5</td>
-      <td>Enumerables Test</td>
-    </tr>
-    <tr>
-      <td>6</td>
-      <td>Throw Exception Test</td>
-    </tr>
-    <tr>
-      <td>7</td>
-      <td>Raised Events Test</td>
-    </tr>
-    <tr>
-      <td>8</td>
-      <td>Private Method Test</td>
-    </tr>
-    <tr>
-      <td>9</td>
-      <td>Internal Method Test</td>
-    </tr>
-  </tbody>
-</table>
+| #  | Test Türü             |
+|----|-----------------------|
+| 1  | String Test           |
+| 2  | Number Test           |
+| 3  | Date Test             |
+| 4  | Object Test           |
+| 5  | Enumerables Test      |
+| 6  | Throw Exception Test  |
+| 7  | Raised Events Test    |
+| 8  | Private Method Test   |
+| 9  | Internal Method Test  |
 
 ---
 
@@ -286,20 +109,9 @@
 
 ### Mocking
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left;">Kavram</th>
-      <th style="text-align:left;">Açıklama</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Mocking</td>
-      <td>Sahte nesnelerle test yapılmasını sağlar. Moq ve NSubstitute Nuget paketleri ile bu işlem gerçekleştirilir. NSubstitute yazım olarak Moq kütüphanesinden daha basittir ve tercih edilebilir.</td>
-    </tr>
-  </tbody>
-</table>
+| Kavram    | Açıklama                                                                                                  |
+|-----------|-----------------------------------------------------------------------------------------------------------|
+| Mocking   | Sahte nesnelerle test yapılmasını sağlar. Moq ve NSubstitute Nuget paketleri ile bu işlem gerçekleştirilir. NSubstitute yazım olarak Moq kütüphanesinden daha basittir ve tercih edilebilir. |
 
 ---
 
@@ -309,21 +121,7 @@
 
 ## Kaynakça
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left;">Yazar</th>
-      <th style="text-align:left;">Kaynak</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Taner Saydam</td>
-      <td>Udemy - YouTube</td>
-    </tr>
-    <tr>
-      <td>Nursema Gülmez</td>
-      <td>Medium</td>
-    </tr>
-  </tbody>
-</table>
+| Yazar           | Kaynak         |
+|-----------------|----------------|
+| Taner Saydam    | Udemy - YouTube|
+| Nursema Gülmez  | Medium         |
